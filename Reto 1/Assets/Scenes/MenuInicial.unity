@@ -1531,9 +1531,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 446, y: 333}
+  m_AnchoredPosition: {x: 44, y: 240}
   m_SizeDelta: {x: 1017.1484, y: 419.62}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.50000006, y: 0.49999997}
 --- !u!114 &922844047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2847,6 +2847,7 @@ GameObject:
   - component: {fileID: 1685301489}
   - component: {fileID: 1685301493}
   - component: {fileID: 1685301494}
+  - component: {fileID: 1685301495}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2965,6 +2966,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 3ee1a4df7a3e4a949a717914010ddc86, type: 2}
+--- !u!114 &1685301495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685301488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91fb79081910b294f8874bd750a1a89c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1805811837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3533,16 +3546,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1685301493}
-        m_TargetAssemblyTypeName: MenuInicial, Assembly-CSharp
-        m_MethodName: Jugar
-        m_Mode: 1
+      - m_Target: {fileID: 1685301495}
+        m_TargetAssemblyTypeName: SeleccionNivel, Assembly-CSharp
+        m_MethodName: CambiarNivel
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Nivel 2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1875306984
@@ -3667,16 +3680,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1685301493}
-        m_TargetAssemblyTypeName: MenuInicial, Assembly-CSharp
-        m_MethodName: Jugar
-        m_Mode: 1
+      - m_Target: {fileID: 1685301495}
+        m_TargetAssemblyTypeName: SeleccionNivel, Assembly-CSharp
+        m_MethodName: CambiarNivel
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Nivel 3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1889795489
@@ -3882,16 +3895,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1685301493}
-        m_TargetAssemblyTypeName: MenuInicial, Assembly-CSharp
-        m_MethodName: Jugar
-        m_Mode: 1
+      - m_Target: {fileID: 1685301495}
+        m_TargetAssemblyTypeName: SeleccionNivel, Assembly-CSharp
+        m_MethodName: CambiarNivel
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Nivel 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1952151267
