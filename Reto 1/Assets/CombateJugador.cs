@@ -1,14 +1,16 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+
 public class CombateJugador : MonoBehaviour
 {
     [SerializeField] private int vida;
     public event EventHandler MuerteJugador;
-    public void TomarDaño(int cantidadDaño)
+
+    public void TomarDaÃ±o(int cantidadDaÃ±o)
     {
-        vida -= cantidadDaño;
+        vida -= cantidadDaÃ±o;
         if (vida <= 0)
         {
             MuerteJugador?.Invoke(this, EventArgs.Empty);

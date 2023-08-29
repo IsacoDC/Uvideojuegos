@@ -9,11 +9,12 @@ public class MenuGameOver : MonoBehaviour
     [SerializeField] private GameObject menuGameOver;
     private CombateJugador combateJugador;
 
-    private void Star()
+    private void Start()
     {
-       
-       combateJugador.MuerteJugador += ActivarMenu;
+        combateJugador = GameObject.FindGameObjectWithTag("Player").GetComponent<CombateJugador>();
+        combateJugador.MuerteJugador += ActivarMenu;
     }
+
     private void ActivarMenu(object sender, EventArgs e)
     {
         menuGameOver.SetActive(true);
@@ -34,9 +35,4 @@ public class MenuGameOver : MonoBehaviour
         UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
-    public GameObject[] objectsToCheck;
-
 }
-
-    
-  
