@@ -1,4 +1,4 @@
-Library: G:\Proyectos\Uvideojuegos\Reto 1\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+Library: G:\Proyectos\reto_2\Uvideojuegos-main\Reto 1\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --platform=Windows
 --backend=burst-llvm-15
 --target=AVX2
@@ -51,10 +51,10 @@ Library: G:\Proyectos\Uvideojuegos\Reto 1\Temp\BurstOutput\Data\Plugins\x86_64\l
 --assembly-defines=mscorlib;
 --linker-options=PdbAltPath="Reto 1_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=G:\Proyectos\Uvideojuegos\Reto 1\Temp\Burst
+--temp-folder=G:\Proyectos\reto_2\Uvideojuegos-main\Reto 1\Temp\Burst
 --key-folder=G:/Program Files/Unity Hub/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=G:\Proyectos\Uvideojuegos\Reto 1\Library\Burst
---output=G:\Proyectos\Uvideojuegos\Reto 1\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=G:\Proyectos\reto_2\Uvideojuegos-main\Reto 1\Library\Burst
+--output=G:\Proyectos\reto_2\Uvideojuegos-main\Reto 1\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
@@ -140,10 +140,10 @@ Library: G:\Proyectos\Uvideojuegos\Reto 1\Temp\BurstOutput\Data\Plugins\x86_64\l
 --assembly-defines=mscorlib;
 --linker-options=PdbAltPath="Reto 1_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=G:\Proyectos\Uvideojuegos\Reto 1\Temp\Burst
+--temp-folder=G:\Proyectos\reto_2\Uvideojuegos-main\Reto 1\Temp\Burst
 --key-folder=G:/Program Files/Unity Hub/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
---decode-folder=G:\Proyectos\Uvideojuegos\Reto 1\Library\Burst
---output=G:\Proyectos\Uvideojuegos\Reto 1\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
+--decode-folder=G:\Proyectos\reto_2\Uvideojuegos-main\Reto 1\Library\Burst
+--output=G:\Proyectos\reto_2\Uvideojuegos-main\Reto 1\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
